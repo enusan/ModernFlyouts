@@ -59,18 +59,6 @@
   <data name="PinTopBar" xml:space="preserve">
     <value>Fijar la barra superior</value>
   </data>
-  <data name="PointValidationRule.PointFormatInvalidMessage" xml:space="preserve">
-    <value>Introduzca el punto en el formato 'X,Y' (por ejemplo, 50,60).</value>
-    <comment>Error message shown when there are problem parsing a string value into a Point</comment>
-  </data>
-  <data name="PointValidationRule.PointOutOfRangeMessage" xml:space="preserve">
-    <value>Introduzca los valores X,Y en el rango {0} - {1}.</value>
-    <comment>Error message shown when a point's X or Y values goes out of int32 range</comment>
-  </data>
-  <data name="PointValidationRule.StringConvertionErrorMessage" xml:space="preserve">
-    <value>El valor no se puede cubrir en cadena.</value>
-    <comment>Error message shown when there is problem in converting an object into a string</comment>
-  </data>
   <data name="RestoreDefaultItem" xml:space="preserve">
     <value>Restaurar valores predeterminados</value>
   </data>
@@ -140,9 +128,6 @@
   <data name="Settings.FlyoutDefaultPosition" xml:space="preserve">
     <value>Posición predeterminada de control flotante (para el botón Alinear)</value>
   </data>
-  <data name="Settings.FlyoutDefaultPositionDescription" xml:space="preserve">
-    <value>Escriba la posición en formato 'X,Y' (por ejemplo, 50,60)</value>
-  </data>
   <data name="Settings.FlyoutTopBar" xml:space="preserve">
     <value>Barra superior del control flotante</value>
   </data>
@@ -198,7 +183,7 @@
     <value>Repositorio de GitHub</value>
   </data>
   <data name="About.OpenNewIssue" xml:space="preserve">
-    <value>Abrir un nuevo número</value>
+    <value>Abrir un nuevo problema en GitHub</value>
   </data>
   <data name="About.RateAndReview" xml:space="preserve">
     <value>Valoración y revisión en Microsoft Store</value>
@@ -317,9 +302,6 @@
   <data name="Settings.UseColoredTrayIcon" xml:space="preserve">
     <value>Usar icono de bandeja de color</value>
   </data>
-  <data name="NgsSettings_Reset" xml:space="preserve">
-    <value>Ngs. Settings_Reset</value>
-  </data>
   <data name="Settings.ResetToDefaults" xml:space="preserve">
     <value>Restablecer todos los ajustes a los valores predeterminados</value>
   </data>
@@ -331,5 +313,8 @@
   </data>
   <data name="Settings.RestartRequired" xml:space="preserve">
     <value>Reinicio necesario para aplicar algunos cambios</value>
+  </data>
+  <data name="AudioFlyoutHelper.UseThumbnailAsBackground" xml:space="preserve">
+    <value>Usar la miniatura multimedia como fondo del control multimedia</value>
   </data>
 </root>
